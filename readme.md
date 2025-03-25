@@ -14,6 +14,8 @@ Unit Test prompt 2
   expect concatOdds (a[],"b") to be error
    both inputs should be arrays
   expect concatOdds(a[],b[]) to be an array 
+  expect a[] to be an array of numbers 
+  expect b[] to be an array of numbers 
 
 Functional Test Prompt
   if there is a item in the cart 
